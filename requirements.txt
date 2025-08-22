@@ -1,0 +1,8 @@
+psutil
+pynput
+pygame
+sounddevice
+pyserial
+matplotlib
+tabulate
+numpy

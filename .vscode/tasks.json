@@ -1,0 +1,36 @@
+{
+  // Configure common tasks to run your diagnostics from VS Code
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Battery Info",
+      "type": "shell",
+      "command": "python diagnostics/battery.py"
+    },
+    {
+      "label": "Storage SMART",
+      "type": "shell",
+      "command": "python diagnostics/storage.py"
+    },
+    {
+      "label": "Sensors",
+      "type": "shell",
+      "command": "python diagnostics/sensors.py"
+    },
+    {
+      "label": "Keyboard Test",
+      "type": "shell",
+      "command": "python diagnostics/keyboard.py"
+    },
+    {
+      "label": "Display Test",
+      "type": "shell",
+      "command": "python diagnostics/display.py"
+    },
+    {
+      "label": "Audio Loopback",
+      "type": "shell",
+      "command": "python diagnostics/audio.py"
+    }
+  ]
+}

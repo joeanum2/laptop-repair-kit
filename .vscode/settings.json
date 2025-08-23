@@ -1,0 +1,6 @@
+{
+  // Path to the Python interpreter relative to your workspace. Adjust as needed.
+  "python.defaultInterpreterPath": "venv/bin/python",
+  // Use Command Prompt on Windows if available
+  "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}
